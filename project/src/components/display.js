@@ -24,7 +24,7 @@ function Display() {
         }
     }
 
-    const hitReset = () => {
+     const hitReset = () => {
         // Any instance of the hit button being clicked should reset the display state
 
         console.log("This is a reset due to a hit.")

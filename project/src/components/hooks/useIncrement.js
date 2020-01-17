@@ -4,7 +4,7 @@ export const  useIncrement = (initialValue) => {
     const [value, setValue] = useState(initialValue);
 
     // increment any value
-    const handleIncrement = (value, limit) => {
+   const handleIncrement = (value, limit) => {
         // Hook candidate
         // On Click function increasing any button by 1
         // console.log("This will be an increment")
