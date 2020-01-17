@@ -11,7 +11,7 @@ return(
     <div>
         <h1> Dashboard </h1>
         <div>
-        <button onClick={() => props.handleStrike(props.strike, 3)}>Strike</button>
+        <button data-testid='test-strike' onClick={() => props.handleStrike(props.strike, 3)}>Strike</button>
         <button onClick={() => props.handleBall(props.ball, 4)}>Ball</button>
         <button onClick={() => props.foulBall()}>Foul</button>
         <button onClick={() => props.hitReset()}>Hit</button>
